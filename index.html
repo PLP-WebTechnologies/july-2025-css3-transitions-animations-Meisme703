@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3 Animations & JS Functions Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CSS3 Transitions & Animations with JavaScript</h1>
+  </header>
+
+  <!-- Part 1: Transitions and Animations Demo -->
+  <section id="css-animations">
+    <h2>Part 1: CSS3 Transitions & Keyframes</h2>
+    <button class="animated-btn">Hover Me (Transition)</button>
+    <div class="fade-box">I fade & slide in on load (Keyframes)</div>
+    <div class="spin-box"></div>
+  </section>
+
+  <!-- Part 2 & 3: JavaScript Functions & Animation Triggers -->
+  <section id="js-animations">
+    <h2>Part 2 & 3: JavaScript Functions, Scope & Animation Triggers</h2>
+    <button id="moveBoxBtn">Animate the Box (Click Me!)</button>
+    <div id="moveBox" class="box"></div>
+
+    <button id="flipCardBtn">Flip Card</button>
+    <div class="card-container">
+      <div class="card" id="flipCard">
+        <div class="card-face card-front">Front</div>
+        <div class="card-face card-back">Back</div>
+      </div>
+    </div>
+
+    <button id="showModalBtn">Show Modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h3>Animated Modal</h3>
+        <p>This modal slides and fades in/out using JS + CSS animations!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CSS3 & JS Animations Demo
+  </footer>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
